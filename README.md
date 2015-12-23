@@ -1,7 +1,7 @@
 
 # SynRemote
 Synchronous Remote Actions for SFDC
-For some reasons, it is a need to execute salesforce remote action in synchonous sequence. SynRemote is a light weigh tool to make things easier.
+It is ugly to execute salesforce remote action in synchonously. SynRemote is a light weigh tool to make things easier.
 
 
 # Installing
