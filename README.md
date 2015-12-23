@@ -5,7 +5,7 @@ It is ugly to execute salesforce remote action in synchonously. SynRemote is a l
 
 
 # Installing
-Include SynRemote on your page using a <script> tag
+Include SynRemote on your page using a \<script\> tag
 
 
 # Usage
