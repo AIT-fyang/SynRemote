@@ -57,12 +57,12 @@ Excample 3 Pass data dynamically
 	complete: function(){
 		console.log('complete:regularTest2')
 	}
-   }, {buffer: true, timeout: 120000});
+    }, {buffer: true, timeout: 120000});
 
-   var SynRemoteTest = SynRemote.synAll([w1,w2,w3,w4], function(){
-		console.log('All Done!');
-   });
+    var SynRemoteTest = SynRemote.synAll([w1,w2,w3,w4], function(){
+	console.log('All Done!');
+    });
 
-   setTimeout(function(){
+    setTimeout(function(){
 	alert(w1.result);//result is stored in wrapper, but only accessible after callback, watch out.
-  },3000)
+    },3000)
